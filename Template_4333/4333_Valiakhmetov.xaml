@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="_4333_Valiakhmetov" Height="450" Width="800">
     <Grid>
-        <Label Content="Валиахметов Динар 4333 | 18 лет" HorizontalAlignment="Center" FontSize="40"/>
+        <Label Content="Валиахметов Динар 4333 | 18 лет" HorizontalAlignment="Center" FontSize="40" Height="NaN" Margin="0,0,0,359"/>
+        <Button x:Name="BnImport" Click="BnImport_Click" Height="NaN" Margin="0,140,0,244">Импорт данных</Button>
+        <Button x:Name="BnExport" Click="BnExport_Click" Height="NaN" Margin="0,247,0,137">Экспорт данных</Button>
     </Grid>
 </Window>
